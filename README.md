@@ -1,1 +1,1 @@
-hifive sample TODO application
+hifive sample application
