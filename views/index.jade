@@ -1,5 +1,14 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  #container
+    .discription 1から入力した数値までを奇数は
+      span(style='color: red;') 赤色
+      | で、偶数は
+      span(style='color: blue;')青色
+      | で画面に出力します
+    input#to(type='text', value='')
+    input#output(type='button', value='出力')
+    ul#list
+
+
